@@ -1,4 +1,7 @@
+/**
+ * 这里用进行build配置
+ */
 module.exports = {
-  publicPath: '/',
+  publicPath: './',
   assetsSubDirectory: 'static'
 }

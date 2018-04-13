@@ -19,6 +19,7 @@ module.exports = {
   rules: {
     'generator-star-spacing': 'off',
     'no-console': 'off',
-    'space-before-function-paren': 'off'
+    'space-before-function-paren': 'off',
+    'react/prop-types': 0
   }
 }
