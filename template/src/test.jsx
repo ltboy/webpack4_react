@@ -1,18 +1,12 @@
 import React, { Component } from 'react'
-import Styled from 'styled-components'
 
 class Test extends Component {
   constructor(props) {
     super(props)
   }
   render() {
-    return <Text>{this.props.text}</Text>
+    return <div>{this.props.text}</div>
   }
 }
-
-const Text = Styled.div`
-  color:red;
-  display:flex;
-`
 
 export default Test
