@@ -42,7 +42,7 @@ module.exports = merge(baseConfig, {
     // 配置的是那些不经过webpack编译的静态文件
     contentBase: 'dist',
     compress: true,
-    host: HOST,
+    host: '0.0.0.0',  // 设置为0.0.0.0可以通过ip访问
     port: PORT,
     open: true,
     overlay: { warnings: false, errors: true },
